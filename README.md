@@ -1,7 +1,7 @@
 # CUBED-DE-INTERN-CHALLENGE
 
 Data Scraper
-Simple Java Application that extract required data from websites.
+Simple Java Application that extracts required data from websites.
 
 Technolgoies Used:
 Java (Prgramming language used)
