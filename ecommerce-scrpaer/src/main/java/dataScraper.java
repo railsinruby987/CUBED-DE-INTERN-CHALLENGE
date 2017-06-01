@@ -6,9 +6,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-//Simple data scraping application 
+//Simple Java Maven project to extract 
+//data from websites
+
 public class dataScraper {
-	
 	
 	public static void main(String[] args) throws Exception {
 		
@@ -33,7 +34,7 @@ public class dataScraper {
         	itemSold = row.select(".lvextras").text();
         	
         	PreparedStatement pst = null;
-            String insertTableSQL = "INSERT INTO itemsCamera"
+                String insertTableSQL = "INSERT INTO itemsCamera"
     				+ "(description,rating,status) VALUES"
     				+ "(?,?,?)";
     		pst = conn.prepareStatement(insertTableSQL);
@@ -45,7 +46,7 @@ public class dataScraper {
 		
   		//closing the connection 
 		if(conn!=null) {
-			conn.close();
-        }
-    }
+		  conn.close();
+        	}
+    	}
 }
