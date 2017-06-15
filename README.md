@@ -1,4 +1,4 @@
-# CUBED-DE-INTERN-CHALLENGE
+#Data Scraper
 
 Data Scraper
 Simple Java Application that extracts required data from websites.
